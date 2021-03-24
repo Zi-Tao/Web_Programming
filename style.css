@@ -129,3 +129,180 @@ td {
 	border-color: rgb(61, 45, 79);
 	border-width: 8px;
 }
+
+/* @media only screen and (max-width : 1200px) {
+	#nav nav span#mobile-navigation {
+		background: url(mobile-menu.png) no-repeat;
+		display: block;
+		height: 50px;
+		margin: 0;
+		padding: 0 0 0 0;
+		position: absolute;
+		right: 3%;
+		top: 5px;
+		width: 50px;
+		z-index: 999;
+	}
+	#nav nav > ul#float-nav {
+		background-image: none;
+		background: rgba(98, 0, 49, 0.91);
+		border: 1px solid #f1f2f2;
+		border-radius: 0;
+		display: none;
+		float: none;
+		height: auto;
+		padding: 0;
+		position: absolute;
+		right: 3%;
+		top: 64px;
+		width: 92%;
+		z-index: 1000;
+	}
+	#nav nav > ul#float-nav > li {
+		border-left: 0;
+		border-top: 1px solid #f1f2f2;
+		margin: 0;
+		height: auto;
+		padding: 0;
+		position: relative;
+		text-align: left;
+		width: 100%;
+	}
+	#nav nav > ul#float-nav li a {
+		border: none;
+		color: #eeeced;
+		display: block;
+		font-family: Arial;
+		font-size: 1.125em;
+		font-weight: normal;
+		height: 3em;
+		line-height: 3.125em;
+		min-height: 54px;
+		padding: 0 10px;
+		text-align: left;
+		text-decoration: none;
+		text-shadow: none;
+		width: auto;
+	}
+} */
+
+
+@media (min-width: 100px) and (max-width: 600px){   
+	nav ul li a {
+		color: white; /* 移除超連結顏色 */
+		display: block; /* 讓 <a> 填滿 <li> */
+		font-size: 11px;
+		font-family: 微軟正黑體;
+		line-height: 15px;
+		padding: 10px 12px;
+		text-decoration: none; /* 移除超連結底線 */
+	}
+	footer {
+		position: absolute;
+		top: 13px;
+		right: 3px;
+		font-family: 微軟正黑體;
+		font-size: 7px;
+		color: #ffffff;
+	}
+}
+
+@media (min-width: 600px) and (max-width: 800px){   
+	nav ul li a {
+		color: white; /* 移除超連結顏色 */
+		display: block; /* 讓 <a> 填滿 <li> */
+		font-size: 13px;
+		font-family: 微軟正黑體;
+		line-height: 11px;
+		padding: 15px 15px;
+		text-decoration: none; /* 移除超連結底線 */
+	}
+	footer {
+		position: absolute;
+		top: 16px;
+		right: 3px;
+		font-family: 微軟正黑體;
+		font-size: 8px;
+		color: #ffffff;
+	}
+}
+
+@media (min-width: 800px) and (max-width: 900px){   
+	nav ul li a {
+		color: white; /* 移除超連結顏色 */
+		display: block; /* 讓 <a> 填滿 <li> */
+		font-size: 16px;
+		font-family: 微軟正黑體;
+		line-height: 20px;
+		padding: 15px 19px;
+		text-decoration: none; /* 移除超連結底線 */
+	}
+	footer {
+		position: absolute;
+		top: 20px;
+		right: 5px;
+		font-family: 微軟正黑體;
+		font-size: 10px;
+		color: #ffffff;
+	}
+}
+
+@media (min-width: 900px) and (max-width: 1100px){   
+	nav ul li a {
+		color: white; /* 移除超連結顏色 */
+		display: block; /* 讓 <a> 填滿 <li> */
+		font-size: 18px;
+		font-family: 微軟正黑體;
+		line-height: 25px;
+		padding: 15px 20px;
+		text-decoration: none; /* 移除超連結底線 */
+	}
+	footer {
+		position: absolute;
+		top: 22px;
+		right: 5px;
+		font-family: 微軟正黑體;
+		font-size: 10px;
+		color: #ffffff;
+	}
+}
+
+@media (min-width: 1100px) and (max-width: 1300px){   
+	nav ul li a {
+		color: white; /* 移除超連結顏色 */
+		display: block; /* 讓 <a> 填滿 <li> */
+		font-size: 22px;
+		font-family: 微軟正黑體;
+		line-height: 30px;
+		padding: 14px 25px;
+		text-decoration: none; /* 移除超連結底線 */
+	}
+	footer {
+		position: absolute;
+		top: 20px;
+		right: 5px;
+		font-family: 微軟正黑體;
+		font-size: 13px;
+		color: #ffffff;
+	}
+}
+
+@media (min-width: 1300px) and (max-width: 1500px){   
+	nav ul li a {
+		color: white; /* 移除超連結顏色 */
+		display: block; /* 讓 <a> 填滿 <li> */
+		font-size: 25px;
+		font-family: 微軟正黑體;
+		line-height: 38px;
+		padding: 15px 25px;
+		text-decoration: none; /* 移除超連結底線 */
+	}
+	footer {
+		position: absolute;
+		top: 15px;
+		right: 10px;
+		font-family: 微軟正黑體;
+		font-size: 18px;
+		color: #ffffff;
+	}
+}
