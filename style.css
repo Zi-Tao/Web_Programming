@@ -186,40 +186,132 @@ td {
 	}
 } */
 
-
-@media (min-width: 100px) and (max-width: 600px){   
+@media (min-width: 0px) and (max-width: 470px){   
 	nav ul li a {
 		color: white; /* 移除超連結顏色 */
 		display: block; /* 讓 <a> 填滿 <li> */
-		font-size: 11px;
+		font-size: 12px;
 		font-family: 微軟正黑體;
-		line-height: 15px;
-		padding: 10px 12px;
+		line-height: 22px;
+		padding: 10px 6px;
 		text-decoration: none; /* 移除超連結底線 */
 	}
 	footer {
-		position: absolute;
-		top: 13px;
-		right: 3px;
-		font-family: 微軟正黑體;
-		font-size: 7px;
-		color: #ffffff;
+		display: none;
 	}
 }
 
-@media (min-width: 600px) and (max-width: 800px){   
+@media (min-width: 470px) and (max-width: 655px){   
 	nav ul li a {
 		color: white; /* 移除超連結顏色 */
 		display: block; /* 讓 <a> 填滿 <li> */
-		font-size: 13px;
+		font-size: 12px;
 		font-family: 微軟正黑體;
-		line-height: 11px;
+		line-height: 22px;
+		padding: 10px 8px;
+		text-decoration: none; /* 移除超連結底線 */
+	}
+	footer {
+		display: none;
+	}
+}
+
+@media (min-width: 655px) and (max-width: 730px){   
+	nav ul li a {
+		color: white; /* 移除超連結顏色 */
+		display: block; /* 讓 <a> 填滿 <li> */
+		font-size: 12px;
+		font-family: 微軟正黑體;
+		line-height: 22px;
+		padding: 10px 8px;
+		text-decoration: none; /* 移除超連結底線 */
+	}
+	footer {
+		/* position: absolute;
+		top: 13px;
+		right: 3px;
+		font-family: 微軟正黑體;
+		font-size: 2px;
+		color: #ffffff; */
+		display: none;
+	}
+}
+
+@media (min-width: 730px) and (max-width: 820px){   
+	nav ul li a {
+		color: white; /* 移除超連結顏色 */
+		display: block; /* 讓 <a> 填滿 <li> */
+		font-size: 14px;
+		font-family: 微軟正黑體;
+		line-height: 23px;
+		padding: 10px 10px;
+		text-decoration: none; /* 移除超連結底線 */
+	}
+	footer {
+		/* position: absolute;
+		top: 13px;
+		right: 3px;
+		font-family: 微軟正黑體;
+		font-size: 3px;
+		color: #ffffff; */
+		display: none;
+	}
+}
+
+@media (min-width: 820px) and (max-width: 990px){   
+	nav ul li a {
+		color: white; /* 移除超連結顏色 */
+		display: block; /* 讓 <a> 填滿 <li> */
+		font-size: 16px;
+		font-family: 微軟正黑體;
+		line-height: 24px;
+		padding: 15px 13px;
+		text-decoration: none; /* 移除超連結底線 */
+	}
+	footer {
+		/* position: absolute;
+		top: 21px;
+		right: 3px;
+		font-family: 微軟正黑體;
+		font-size: 4px;
+		color: #ffffff; */
+		display: none;
+	}
+}
+
+@media (min-width: 990px) and (max-width: 1015px){   
+	nav ul li a {
+		color: white; /* 移除超連結顏色 */
+		display: block; /* 讓 <a> 填滿 <li> */
+		font-size: 16px;
+		font-family: 微軟正黑體;
+		line-height: 25px;
 		padding: 15px 15px;
 		text-decoration: none; /* 移除超連結底線 */
 	}
 	footer {
 		position: absolute;
-		top: 16px;
+		top: 20px;
+		right: 3px;
+		font-family: 微軟正黑體;
+		font-size: 6px;
+		color: #ffffff;
+	}
+}
+
+@media (min-width: 1015px) and (max-width: 1060px){   
+	nav ul li a {
+		color: white; /* 移除超連結顏色 */
+		display: block; /* 讓 <a> 填滿 <li> */
+		font-size: 17px;
+		font-family: 微軟正黑體;
+		line-height: 26px;
+		padding: 15px 15px;
+		text-decoration: none; /* 移除超連結底線 */
+	}
+	footer {
+		position: absolute;
+		top: 20px;
 		right: 3px;
 		font-family: 微軟正黑體;
 		font-size: 8px;
@@ -227,67 +319,127 @@ td {
 	}
 }
 
-@media (min-width: 800px) and (max-width: 900px){   
-	nav ul li a {
-		color: white; /* 移除超連結顏色 */
-		display: block; /* 讓 <a> 填滿 <li> */
-		font-size: 16px;
-		font-family: 微軟正黑體;
-		line-height: 20px;
-		padding: 15px 19px;
-		text-decoration: none; /* 移除超連結底線 */
-	}
-	footer {
-		position: absolute;
-		top: 20px;
-		right: 5px;
-		font-family: 微軟正黑體;
-		font-size: 10px;
-		color: #ffffff;
-	}
-}
-
-@media (min-width: 900px) and (max-width: 1100px){   
+@media (min-width: 1060px) and (max-width: 1120px){   
 	nav ul li a {
 		color: white; /* 移除超連結顏色 */
 		display: block; /* 讓 <a> 填滿 <li> */
 		font-size: 18px;
 		font-family: 微軟正黑體;
-		line-height: 25px;
-		padding: 15px 20px;
+		line-height: 27px;
+		padding: 15px 17px;
 		text-decoration: none; /* 移除超連結底線 */
 	}
 	footer {
 		position: absolute;
-		top: 22px;
-		right: 5px;
+		top: 19px;
+		right: 3px;
 		font-family: 微軟正黑體;
 		font-size: 10px;
 		color: #ffffff;
 	}
 }
 
-@media (min-width: 1100px) and (max-width: 1300px){   
+@media (min-width: 1120px) and (max-width: 1190px){   
+	nav ul li a {
+		color: white; /* 移除超連結顏色 */
+		display: block; /* 讓 <a> 填滿 <li> */
+		font-size: 19px;
+		font-family: 微軟正黑體;
+		line-height: 28px;
+		padding: 15px 19px;
+		text-decoration: none; /* 移除超連結底線 */
+	}
+	footer {
+		position: absolute;
+		top: 17px;
+		right: 5px;
+		font-family: 微軟正黑體;
+		font-size: 12px;
+		color: #ffffff;
+	}
+}
+
+@media (min-width: 1190px) and (max-width: 1225px){   
+	nav ul li a {
+		color: white; /* 移除超連結顏色 */
+		display: block; /* 讓 <a> 填滿 <li> */
+		font-size: 20px;
+		font-family: 微軟正黑體;
+		line-height: 28px;
+		padding: 15px 20px;
+		text-decoration: none; /* 移除超連結底線 */
+	}
+	footer {
+		position: absolute;
+		top: 13px;
+		right: 5px;
+		font-family: 微軟正黑體;
+		font-size: 14px;
+		color: #ffffff;
+	}
+}
+
+@media (min-width: 1225px) and (max-width: 1280px){   
+	nav ul li a {
+		color: white; /* 移除超連結顏色 */
+		display: block; /* 讓 <a> 填滿 <li> */
+		font-size: 21px;
+		font-family: 微軟正黑體;
+		line-height: 28px;
+		padding: 14px 18px;
+		text-decoration: none; /* 移除超連結底線 */
+	}
+	footer {
+		position: absolute;
+		top: 10px;
+		right: 5px;
+		font-family: 微軟正黑體;
+		font-size: 15px;
+		color: #ffffff;
+	}
+}
+
+@media (min-width: 1280px) and (max-width: 1335px){   
 	nav ul li a {
 		color: white; /* 移除超連結顏色 */
 		display: block; /* 讓 <a> 填滿 <li> */
 		font-size: 22px;
 		font-family: 微軟正黑體;
 		line-height: 30px;
-		padding: 14px 25px;
+		padding: 14px 20px;
 		text-decoration: none; /* 移除超連結底線 */
 	}
 	footer {
 		position: absolute;
-		top: 20px;
-		right: 5px;
+		top: 12px;
+		right: 7px;
 		font-family: 微軟正黑體;
-		font-size: 13px;
+		font-size: 15px;
 		color: #ffffff;
 	}
 }
 
-@media (min-width: 1300px) and (max-width: 1500px){   
+@media (min-width: 1335px) and (max-width: 1430px){   
+	nav ul li a {
+		color: white; /* 移除超連結顏色 */
+		display: block; /* 讓 <a> 填滿 <li> */
+		font-size: 23px;
+		font-family: 微軟正黑體;
+		line-height: 38px;
+		padding: 14px 20px;
+		text-decoration: none; /* 移除超連結底線 */
+	}
+	footer {
+		position: absolute;
+		top: 16px;
+		right: 8px;
+		font-family: 微軟正黑體;
+		font-size: 16px;
+		color: #ffffff;
+	}
+}
+
+@media (min-width: 1430px) and (max-width: 1500px){   
 	nav ul li a {
 		color: white; /* 移除超連結顏色 */
 		display: block; /* 讓 <a> 填滿 <li> */
@@ -299,10 +451,10 @@ td {
 	}
 	footer {
 		position: absolute;
-		top: 15px;
-		right: 10px;
+		top: 19px;
+		right: 7px;
 		font-family: 微軟正黑體;
-		font-size: 18px;
+		font-size: 16px;
 		color: #ffffff;
 	}
 }
