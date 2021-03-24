@@ -6,7 +6,14 @@ body {
 	position: relative;
 	width: auto;
 }
-div{
+#exchange {
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: auto;
+}
+#nav {
 	background: url("nav.jpg");
 }
 nav{
@@ -60,4 +67,65 @@ footer {
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+#picture video {
+	display: block;
+	margin: 0 auto;
+	padding: 3px 0 0;
+	width: 50%;
+}
+
+#picture img {
+	display: block;
+	margin: 0 auto;
+	padding: 3px 0 0;
+	width: 50%;
+}
+
+#picture h1 {
+	font-size: 35px;
+	font-family: 微軟正黑體;
+	color: #e0e0e0;
+	text-align: center;
+}
+
+table {
+	font-size: 35px;
+	font-family: 微軟正黑體;
+	color: #e0e0e0;
+	border-collapse: collapse;
+	border-style: solid;
+	border-color: rgb(61, 45, 79);
+	border-width: 8px;
+	padding: 20px;
+	margin-left:auto; 
+	margin-right:auto;
+}
+#ETF_td{
+	 writing-mode: vertical-lr; 
+	-webkit-transform: rotate(90deg);  
+	text-orientation: upright;
+	padding: 0px;
+}
+th {
+	font-size: 30px;
+	font-family: 微軟正黑體;
+	color: #e0e0e0;
+	padding: 20px;
+	border-collapse: collapse;
+	border-style: solid;
+	border-color: rgb(61, 45, 79);
+	border-width: 8px;
+}
+
+td {
+	font-size: 30px;
+	font-family: 微軟正黑體;
+	color: #e0e0e0;
+	padding: 20px;
+	border-collapse: collapse;
+	border-style: solid;
+	border-color: rgb(61, 45, 79);
+	border-width: 8px;
 }
