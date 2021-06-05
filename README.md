@@ -1,3 +1,3 @@
-# Web_RWD
+# web_RWD
 
 Please click index.html !
