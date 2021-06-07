@@ -1,3 +1,3 @@
 # web_RWD
 
-Please click index.html !
+Please use Google Chrome and click index.html !
