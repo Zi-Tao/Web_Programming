@@ -104,9 +104,10 @@ table {
 }
 #ETF_td{
 	 writing-mode: vertical-lr; 
-	-webkit-transform: rotate(90deg);  
+	/* -webkit-transform: rotate(90deg);   */
 	text-orientation: upright;
 	padding: 0px;
+	text-align: center;
 }
 th {
 	font-size: 30px;
